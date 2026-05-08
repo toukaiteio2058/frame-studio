@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>飲食店向けホームページ制作 | Frame Studio| Frame Studio</title>
+  <title>飲食店向けホームページ制作 | Frame Studio</title>
   <meta name="description" content="飲食店向けホームページ制作。スマホ対応、予約導線、Instagram連携、1ページサイト制作まで対応。" />
 
   <style>
@@ -472,12 +472,104 @@
     }
 
     @media (max-width: 680px) {
+      .header-inner {
+        height: 58px;
+        width: 92%;
+      }
+
+      .logo {
+        font-size: 22px;
+        letter-spacing: 0.06em;
+      }
+
       .nav {
         display: none;
       }
 
+      .hero {
+        min-height: 86vh;
+        padding-top: 58px;
+        background-position: center;
+      }
+
+      .hero-content {
+        width: 88%;
+      }
+
+      .hero-label {
+        font-size: 12px;
+        padding: 7px 13px;
+        margin-bottom: 18px;
+      }
+
+      .hero h1 {
+        font-size: clamp(34px, 11vw, 48px);
+        line-height: 1.25;
+        margin-bottom: 20px;
+      }
+
+      .hero p {
+        font-size: 15px;
+        line-height: 1.9;
+        margin-bottom: 28px;
+      }
+
       .section {
-        padding: 80px 0;
+        padding: 64px 0;
+      }
+
+      .section-head {
+        margin-bottom: 34px;
+      }
+
+      .section-head span {
+        font-size: 12px;
+      }
+
+      .section-head h2 {
+        font-size: clamp(28px, 9vw, 38px);
+        line-height: 1.35;
+      }
+
+      .problem-grid,
+      .service-grid,
+      .flow-wrap,
+      .about-grid {
+        gap: 18px;
+      }
+
+      .problem-card,
+      .flow-card,
+      .service-card {
+        padding: 26px;
+        border-radius: 22px;
+      }
+
+      .problem-card h3,
+      .flow-card h3,
+      .service-card h3 {
+        font-size: 21px;
+      }
+
+      .problem-number {
+        width: 42px;
+        height: 42px;
+        margin-bottom: 16px;
+      }
+
+      .about-image img {
+        height: 300px;
+        border-radius: 24px;
+      }
+
+      .about-text h2 {
+        font-size: clamp(30px, 9vw, 40px);
+        line-height: 1.35;
+      }
+
+      .point {
+        padding: 18px;
+        border-radius: 18px;
       }
 
       .hero-buttons {
@@ -486,10 +578,35 @@
 
       .btn {
         width: 100%;
+        padding: 14px 22px;
+        font-size: 15px;
       }
 
       .price-box {
-        padding: 40px 28px;
+        padding: 34px 24px;
+        border-radius: 26px;
+      }
+
+      .price-box h3 {
+        font-size: clamp(42px, 14vw, 56px);
+      }
+
+      .price-list li {
+        font-size: 14px;
+      }
+
+      .cta {
+        padding: 86px 0;
+      }
+
+      .cta h2 {
+        font-size: clamp(32px, 10vw, 46px);
+        line-height: 1.35;
+      }
+
+      .cta p {
+        font-size: 15px;
+        line-height: 1.9;
       }
     }
   </style>
@@ -745,3 +862,4 @@
 
 </body>
 </html>
+
